@@ -7,7 +7,7 @@ const Footer = () => {
         <footer className="bg-gray-900 text-gray-400 border-t border-gray-800">
             <div className="container mx-auto px-4 py-6 text-center">
                 <p className="text-sm">
-                    &copy; {currentYear} Projeto Escolar. Todos os direitos
+                    &copy; {currentYear} Trabalho de Biologia. Todos os direitos
                     reservados.
                 </p>
                 <p className="text-xs mt-2">

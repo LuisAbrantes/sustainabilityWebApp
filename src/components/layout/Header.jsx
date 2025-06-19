@@ -21,7 +21,7 @@ const Header = () => {
                         </svg>
                     </div>
                     <h1 className="text-xl font-bold text-white">
-                        Projeto Escolar
+                        Trabalho de Biologia
                     </h1>
                 </div>
 

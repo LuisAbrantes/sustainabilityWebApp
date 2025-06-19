@@ -1,5 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 56" fill="none" stroke="#39FF14" stroke-width="2">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 56" fill="none" stroke="#39FF14" stroke-width="1.5">
+  <!-- Contorno do retângulo principal -->
   <rect width="80" height="56" />
-  <path d="M40 5L75 28L40 51L5 28L40 5Z" />
+  
+  <!-- Losango -->
+  <path d="M40 8L72 28L40 48L8 28L40 8Z" />
+  
+  <!-- Círculo -->
   <circle cx="40" cy="28" r="12" />
+  
+  <!-- Faixa -->
+  <path d="M40 20C45.5 20 50 23.6 50 28C50 32.4 45.5 36 40 36C34.5 36 30 32.4 30 28C30 23.6 34.5 20 40 20Z" stroke-width="1" />
+  
+  <!-- Estrelas (simplificadas para a versão dark) -->
+  <g stroke-width="1">
+    <!-- Estrela central -->
+    <path d="M40 27L41 29L43 29L41.5 30L42 32L40 31L38 32L38.5 30L37 29L39 29Z" />
+    
+    <!-- Mais 4 estrelas menores -->
+    <circle cx="34" cy="28" r="0.8" />
+    <circle cx="46" cy="28" r="0.8" />
+    <circle cx="40" cy="24" r="0.8" />
+    <circle cx="40" cy="32" r="0.8" />
+  </g>
 </svg>

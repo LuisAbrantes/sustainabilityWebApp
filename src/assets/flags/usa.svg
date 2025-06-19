@@ -1,31 +1,60 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Fundo branco -->
   <rect width="512" height="512" fill="#fff"/>
-  <g>
-    <rect width="512" height="39.4" y="0" fill="#b22234"/>
-    <rect width="512" height="39.4" y="78.8" fill="#b22234"/>
-    <rect width="512" height="39.4" y="157.5" fill="#b22234"/>
-    <rect width="512" height="39.4" y="236.3" fill="#b22234"/>
-    <rect width="512" height="39.4" y="315" fill="#b22234"/>
-    <rect width="512" height="39.4" y="393.8" fill="#b22234"/>
-    <rect width="512" height="39.4" y="472.5" fill="#b22234"/>
+  
+  <!-- 13 listras horizontais alternadas (vermelho) -->
+  <g fill="#B22234">
+    <rect width="512" height="39.4" y="0"/>
+    <rect width="512" height="39.4" y="78.8"/>
+    <rect width="512" height="39.4" y="157.5"/>
+    <rect width="512" height="39.4" y="236.3"/>
+    <rect width="512" height="39.4" y="315"/>
+    <rect width="512" height="39.4" y="393.8"/>
+    <rect width="512" height="39.4" y="472.5"/>
   </g>
-  <rect width="256" height="275.4" fill="#3c3b6e"/>
+  
+  <!-- Cantão azul -->
+  <rect width="256" height="275.4" fill="#3C3B6E"/>
+  
+  <!-- 50 estrelas (5 linhas de 6 e 4 linhas de 5, alternadas) -->
   <g fill="#fff">
-    <g id="s18">
-      <g id="s9">
-        <g id="s5">
-          <g id="s4">
-            <path id="s" d="M24.8,24.8 L28.5,35.8 L20.2,30.5 h9.6 l-8.3,5.3 z"/>
-            <use href="#s" x="47" y="0"/>
-            <use href="#s" x="94" y="0"/>
-            <use href="#s" x="141" y="0"/>
-          </g>
-          <use href="#s" x="0" y="47"/>
-        </g>
-        <use href="#s5" y="94"/>
+    <!-- Primeiras 5 linhas (6 estrelas cada) -->
+    <g id="linha6">
+      <!-- Uma linha de 6 estrelas -->
+      <g id="estrela6">
+        <!-- Uma estrela -->
+        <path d="M24.8,24.8 L28.5,35.8 L20.2,30.5 h9.6 l-8.3,5.3 z"/>
+        
+        <!-- Outras 5 estrelas na mesma linha -->
+        <path d="M65.8,24.8 L69.5,35.8 L61.2,30.5 h9.6 l-8.3,5.3 z"/>
+        <path d="M106.8,24.8 L110.5,35.8 L102.2,30.5 h9.6 l-8.3,5.3 z"/>
+        <path d="M147.8,24.8 L151.5,35.8 L143.2,30.5 h9.6 l-8.3,5.3 z"/>
+        <path d="M188.8,24.8 L192.5,35.8 L184.2,30.5 h9.6 l-8.3,5.3 z"/>
+        <path d="M229.8,24.8 L233.5,35.8 L225.2,30.5 h9.6 l-8.3,5.3 z"/>
       </g>
-      <use href="#s9" y="188"/>
+      
+      <!-- Copiar a primeira linha mais 4 vezes, deslocando verticalmente -->
+      <use href="#estrela6" y="49"/>
+      <use href="#estrela6" y="98"/>
+      <use href="#estrela6" y="147"/>
+      <use href="#estrela6" y="196"/>
     </g>
-    <use href="#s18" x="47" y="24"/>
+    
+    <!-- 4 linhas (5 estrelas cada, deslocadas) -->
+    <g id="linha5">
+      <!-- Uma linha de 5 estrelas (deslocada) -->
+      <g id="estrela5">
+        <path d="M45.3,49.3 L49.0,60.3 L40.7,55.0 h9.6 l-8.3,5.3 z"/>
+        <path d="M86.3,49.3 L90.0,60.3 L81.7,55.0 h9.6 l-8.3,5.3 z"/>
+        <path d="M127.3,49.3 L131.0,60.3 L122.7,55.0 h9.6 l-8.3,5.3 z"/>
+        <path d="M168.3,49.3 L172.0,60.3 L163.7,55.0 h9.6 l-8.3,5.3 z"/>
+        <path d="M209.3,49.3 L213.0,60.3 L204.7,55.0 h9.6 l-8.3,5.3 z"/>
+      </g>
+      
+      <!-- Copiar a linha deslocada mais 3 vezes -->
+      <use href="#estrela5" y="49"/>
+      <use href="#estrela5" y="98"/>
+      <use href="#estrela5" y="147"/>
+    </g>
   </g>
 </svg>

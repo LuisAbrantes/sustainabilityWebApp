@@ -1,6 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Fundo verde -->
   <rect width="512" height="512" fill="#009B3A"/>
+  
+  <!-- Losango amarelo -->
   <path d="M256,100 L50,256 L256,412 L462,256 L256,100 Z" fill="#FFDF00"/>
-  <circle cx="256" cy="256" r="70" fill="#002776"/>
-  <path d="M256,230 Q296,230 296,256 Q296,282 256,282 Q216,282 216,256 Q216,230 256,230 Z" fill="#fff"/>
+  
+  <!-- Círculo azul -->
+  <circle cx="256" cy="256" r="76" fill="#002776"/>
+  
+  <!-- Faixa branca -->
+  <path d="M256,190 A66,66 0 0 1 319.5,256 A66,66 0 0 1 256,322 A66,66 0 0 1 192.5,256 A66,66 0 0 1 256,190 Z" fill="none" stroke="#FFF" stroke-width="12"/>
+  
+  <!-- Estrelas -->
+  <g fill="#FFF">
+    <!-- Spica/Virgem (α Vir) - Espiga/Virgem -->
+    <path d="M256,246 L258,256 L268,258 L258,260 L256,270 L254,260 L244,258 L254,256 Z"/>
+    
+    <!-- Outras estrelas principais -->
+    <path d="M282,270 L284,276 L290,278 L284,280 L282,286 L280,280 L274,278 L280,276 Z"/>
+    <path d="M230,276 L232,282 L238,284 L232,286 L230,292 L228,286 L222,284 L228,282 Z"/>
+    <path d="M212,256 L214,262 L220,264 L214,266 L212,272 L210,266 L204,264 L210,262 Z"/>
+    <path d="M300,256 L302,262 L308,264 L302,266 L300,272 L298,266 L292,264 L298,262 Z"/>
+    
+    <!-- 22 outras estrelas menores estrategicamente posicionadas -->
+    <g transform="scale(0.7) translate(96, 96)">
+      <path d="M256,220 L257,226 L263,227 L257,228 L256,234 L255,228 L249,227 L255,226 Z"/>
+      <path d="M236,230 L237,236 L243,237 L237,238 L236,244 L235,238 L229,237 L235,236 Z"/>
+      <path d="M276,230 L277,236 L283,237 L277,238 L276,244 L275,238 L269,237 L275,236 Z"/>
+    </g>
+  </g>
 </svg>
