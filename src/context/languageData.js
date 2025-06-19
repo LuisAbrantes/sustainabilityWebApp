@@ -11,9 +11,10 @@ export const defaultValues = {
             },
             sections: {
                 hero: {
-                    title: 'O Futuro do Brasil em Jogo',
+                    title: 'Atividade de Biologia',
                     subtitle:
-                        'Uma análise interativa da sustentabilidade, políticas ambientais e o papel do Brasil na agenda climática global rumo à COP30.'
+                        'Uma análise interativa da sustentabilidade, políticas ambientais e o papel do Brasil na agenda climática global rumo à COP30.',
+                    authors: 'Feito por Luis Abrantes e Cauã Almeida'
                 },
                 pillars: {
                     title: 'Os Pilares da Ação Ambiental',
@@ -175,9 +176,10 @@ export const defaultValues = {
             },
             sections: {
                 hero: {
-                    title: "Brazil's Future at Stake",
+                    title: 'Biology Activity',
                     subtitle:
-                        "An interactive analysis of sustainability, environmental policies, and Brazil's role on the global climate agenda towards COP30."
+                        "An interactive analysis of sustainability, environmental policies, and Brazil's role on the global climate agenda towards COP30.",
+                    authors: 'Made by Luis Abrantes and Cauã Almeida'
                 },
                 pillars: {
                     title: 'The Pillars of Environmental Action',

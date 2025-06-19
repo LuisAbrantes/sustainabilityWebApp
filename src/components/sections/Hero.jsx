@@ -28,7 +28,12 @@ const Hero = () => {
                 <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white">
                     {t.title}
                 </h1>
-                <p className="text-lg md:text-xl text-gray-200">{t.subtitle}</p>
+                <p className="text-lg md:text-xl text-gray-200 mb-3">
+                    {t.subtitle}
+                </p>
+                <p className="text-md md:text-lg text-green-400 font-medium">
+                    {t.authors}
+                </p>
             </div>
         </section>
     );
